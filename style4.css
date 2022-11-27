@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .center{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: px;
+        margin: 0 auto;
+        padding:0 2%;
+        }
+    
+    html,body{
+    height: 100%;
+    overflow-x:hidden;
+    
+    }
+    
+    header{
+        height: 200px;
+        padding: 20px 0;
+    }
+    
+    .logo{
+    width: 50%;
+    max-width: 200px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    }
+    
+    .menu{
+        padding-top: 30px;
+        width: 95%;
+    text-align: right;
+    
+    }
+    
+    .menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 45px;
+    }
+    
+    section.sobre{
+    height: calc(100% - 200px);
+        position: relative;
+    }
+    
+    .extras{
+    position: absolute;
+    bottom:-520px;
+    right: -600px;
+    width: 1150px;
+    height: 1150px;
+    top:3550px;
+    
+    }
+    
+    .texto-sobre {
+        margin-top:10px;
+    }
+    
+    .texto-sobre h1{
+       font-size: 50px;
+    }
+    
+    .texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+    }
+    
+    .texto-sobre button{
+    border:0;
+    background-color: #6c34f5;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    }
+    
+    ::-webkit-scrollbar{
+      width:10px;  
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        width: 10px;
+        background-color: rgb(255, 0, 0);
+    }
