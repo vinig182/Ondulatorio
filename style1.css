@@ -51,19 +51,6 @@ height: calc(100% - 200px);
     position: relative;
 }
 
-
-
-.extras{
-position: absolute;
-bottom:-450px;
-right:-500px;
-width: 1150px;
-height: 1150px;
-border-radius: 50%;
-background-color: #5986e7;
-}
-
-
 .texto-sobre {
     margin-top:100px;
 }
